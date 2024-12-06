@@ -1,0 +1,12 @@
+class rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+
+    def display(self):
+        print(f"Rectangle's height is: {self.width}x{self.height}={self.width*self.height}")
+ob1=rectangle(3,2)
+ob1.display()
